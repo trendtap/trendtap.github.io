@@ -413,6 +413,7 @@ h4 span:before {
 
 .section-five {
     width: 85%;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 0px 40px;
     display: flex;
@@ -743,7 +744,7 @@ input[type="submit"]:hover {
     .section-two .personalities {
         margin: 30px 0px;
     }
-    .section-two .column-x {
+    .section-two .column {
         margin: 10px 20px;
     }
     .section-two .display-image {
@@ -879,7 +880,7 @@ input[type="submit"]:hover {
         flex-direction: column;
         align-items: center;
     }
-    .section-five .row-x {
+    .section-five .row {
         height: auto;
         margin-bottom: 20px;
     }
@@ -1007,5 +1008,14 @@ input[type="submit"]:hover {
         height: 50px;
         line-height: 50px;
         margin-bottom: 12px;
+    }
+}
+
+@media screen and (min-width: 1475px) {
+    .section-three .list {
+        margin-top: 60px;
+    }
+    .section-four .image10 {
+        margin-top: 100px;
     }
 }
