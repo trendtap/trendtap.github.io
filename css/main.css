@@ -10,7 +10,7 @@
     clear: both;
 }
 
-.container {
+.containerfull {
     font-family: 'Roboto Slab', sans-serif;
 }
 
@@ -48,7 +48,7 @@
 }
 
 .section-one .logo {
-    background-image: url('Assets/Asset 2.png');
+    background-image: url('/Assets/Asset2.png');
     background-repeat: no-repeat;
     height: 87px;
 }
@@ -160,37 +160,37 @@
 }
 
 .image1 {
-    background-image: url('Assets/Allen Su.png');
+    background-image: url('/Assets/AllenSu.png');
     background-size: cover;
     background-position: center;
 }
 
 .image2 {
-    background-image: url('Assets/Blanda.png');
+    background-image: url('/Assets/Blanda.png');
     background-size: cover;
     background-position: center;
 }
 
 .image3 {
-    background-image: url('Assets/Li Xiao.png');
+    background-image: url('/Assets/LiXiao.png');
     background-size: cover;
     background-position: center;
 }
 
 .image4 {
-    background-image: url('Assets/Lin Mei Mei.png');
+    background-image: url('/Assets/LinMeiMei.png');
     background-size: cover;
     background-position: center;
 }
 
 .image5 {
-    background-image: url('Assets/MaoMao.png');
+    background-image: url('/Assets/MaoMao.png');
     background-size: cover;
     background-position: center;
 }
 
 .image6 {
-    background-image: url('Assets/James Alofs.png');
+    background-image: url('/Assets/JamesAlofs.png');
     background-size: cover;
     background-position: center;
 }
@@ -212,7 +212,7 @@
 }
 
 .section-three:before {
-    background-image: url('./Assets/irina.jpg');
+    background-image: url('/Assets/irina.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -233,7 +233,7 @@
 }
 
 .section-three .image7:after {
-    background: url(./Assets/MobileMockup.png);
+    background: url(/Assets/MobileMockup.png);
     z-index: 100;
     background-size: contain;
     background-position: center;
@@ -513,7 +513,7 @@ h4 span:before {
     position: absolute;
     top: 10%;
     left: 10%;
-    background: url('./Assets/Asset 21.png');
+    background: url('/Assets/Asset21.png');
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -682,7 +682,7 @@ input[type="submit"]:hover {
     .section-two .personalities {
         margin: 30px 0px;
     }
-    .section-two .column {
+    .section-two .column-x {
         margin: 10px 20px;
     }
     .section-two .display-image {
@@ -818,7 +818,7 @@ input[type="submit"]:hover {
         flex-direction: column;
         align-items: center;
     }
-    .section-five .row {
+    .section-five .row-x {
         height: auto;
         margin-bottom: 20px;
     }
