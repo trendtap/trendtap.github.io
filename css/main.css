@@ -12,6 +12,7 @@
 
 body {
     overflow-x: hidden;
+    max-width: 100vw !important;
 }
 
 .containerfull {
@@ -26,6 +27,7 @@ body {
 .section-one .image {
     background-color: #3c57d0;
     width: 40%;
+    max-width: 40%;
     position: relative;
     left: 0;
     top: 0;
@@ -736,6 +738,7 @@ input[type="submit"]:hover {
         line-height: 40px;
     }
     .section-one .image {
+        max-width: 100%;
         /*position: static;*/
         /*display: inline-block;*/
         /*width: 40%;*/
@@ -957,7 +960,8 @@ input[type="submit"]:hover {
     }
     .section-seven .content {
         z-index: 101;
-        margin-top: 10px
+        margin-top: 10px;
+        width: 85%;
     }
     .section-seven .image13 {
         -webkit-order: 3;
@@ -1034,6 +1038,7 @@ input[type="submit"]:hover {
         border: 2px solid #fff;
         height: 50px;
         line-height: 50px;
+        text-align: center;
     }
     #mc_embed_signup_scroll {
         display: flex;
