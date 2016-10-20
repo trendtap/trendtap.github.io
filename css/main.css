@@ -63,7 +63,6 @@
     z-index: 101;
 }
 
-
 .section-one .left {
     padding: 100px;
     display: flex;
@@ -650,53 +649,27 @@ input[type="submit"]:hover {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*@media screen and (max-width: 600px) and (min-width: 480px) {*/
 
 @media screen and (max-width: 600px) {
     body {
         /*background-color: yellow;*/
     }
+    .section-one .image {
+        width: 100%;
+        clear: both;
+        min-height: auto;
+    }
     .section-one {
-        /*position: relative;
-        padding: 20px;
-        padding-right: 0;
-        height: auto;
-        overflow: hidden;*/
+        min-height: auto;
     }
     .section-one .left {
-        /*margin-left: 0px;
-        margin-right: 0px;
-        text-align: left;
-        position: relative;
-        float: left;
-        width: 60%;
-        height: 350px;
-        display: flex;
-        justify-content: center;*/
+        width: 100%;
+        clear: both;
+        min-height: auto;
     }
-    .section-one .logo {
-        /*background-size: contain;
-        height: 40px;
-        background-position: initial;*/
-    }
-    .section-one .description {
-        /*width: 100%;*/
-        /*padding: 0 10px 0 0;*/
-    }
+    .section-one .logo {}
+    .section-one .description {}
     .section-one .description h1 {
         font-size: 20px;
         line-height: 30px;
@@ -1021,9 +994,6 @@ input[type="submit"]:hover {
     }
 }
 
-@media screen and (min-width: 1475px) {
-}
+@media screen and (min-width: 1475px) {}
 
-@media screen and (max-width: 1150px) {
-    
-}
+@media screen and (max-width: 1150px) {}
