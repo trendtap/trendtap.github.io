@@ -80,7 +80,9 @@
 .section-one .logo {
     background-image: url('/Assets/Asset2.png');
     background-repeat: no-repeat;
-    height: 87px;
+    background-size: contain;
+    height: 80px;
+    width: 400px;
 }
 
 .section-one .description {
