@@ -382,6 +382,7 @@ h4 span:before {
 
 .section-five {
     width: 85%;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 0px 40px;
     display: flex;
