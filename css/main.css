@@ -365,6 +365,7 @@ h4 span:before {
 .image10 {
     width: 50%;
     float: left;
+    clear: left;
 }
 
 .image9 img {
@@ -973,4 +974,11 @@ input[type="submit"]:hover {
     .section-four .image10 {
         margin-top: 100px;
     }
+}
+
+@media screen and (min-width: 1475px) {
+}
+
+@media screen and (max-width: 1150px) {
+    
 }
