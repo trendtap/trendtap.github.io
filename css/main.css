@@ -809,9 +809,9 @@ input[type="submit"]:hover {
     .section-three .content {
         width: 100%;
     }
-    .section-three .content .heading {}
     .section-three .content h1 {
         font-size: 16px;
+        color: #727272;
     }
     .section-three .content p {
         font-size: 22px;
