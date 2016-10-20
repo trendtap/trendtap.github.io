@@ -463,27 +463,43 @@ h4 span:before {
     background-position: center;
 }
 
-.section-seven h1,
+
+/*.section-seven h1,
 .section-seven h3 {
     text-align: center;
     position: absolute;
     left: 0px;
     right: 0px;
-}
+}*/
 
 .section-seven h1 {
     font-family: 'Raleway', sans-serif;
     font-size: 40px;
     line-height: 55px;
-    top: 20%;
+    /*top: 20%;*/
+    /*padding-left: 20px;*/
+    /*padding-right: 20px;*/
+    z-index: 101;
 }
 
 .section-seven h3 {
-    top: 25%;
+    /*top: 25%;*/
     color: #727272;
     font-size: 20px;
     font-weight: normal;
     line-height: 30px;
+    /*padding: 20px;*/
+    z-index: 101;
+}
+
+.section-seven .content {
+    text-align: center;
+    margin-top: 50px;
+    width: 60%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .section-eight {
@@ -946,6 +962,5 @@ input[type="submit"]:hover {
         height: 50px;
         line-height: 50px;
         margin-bottom: 12px;
-        
     }
 }
