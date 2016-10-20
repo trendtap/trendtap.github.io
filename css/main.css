@@ -667,9 +667,16 @@ input[type="submit"]:hover {
         width: 100%;
         clear: both;
         min-height: auto;
+        padding: 80px 40px;
+        text-align: center;
     }
-    .section-one .logo {}
-    .section-one .description {}
+    .section-one .logo {
+        width: 210px;
+        margin: 0 auto;
+    }
+    .section-one .description {
+        margin-top: 0px;
+    }
     .section-one .description h1 {
         font-size: 20px;
         line-height: 30px;
@@ -682,6 +689,7 @@ input[type="submit"]:hover {
     .section-one .button {
         padding: 0px 20px;
         height: 40px;
+        font-size: 18px;
     }
     .section-one .left a {
         font-size: 18px;
@@ -706,6 +714,13 @@ input[type="submit"]:hover {
         font-size: 20px;
         line-height: 30px;
         text-align: center;
+        position: relative;
+        top: 30px;
+
+        /*background-color: red;*/
+    }
+    .section-two .personalities {
+        margin-top: 10px;
     }
     .section-two .break-one {
         font-size: 30px;
@@ -722,8 +737,8 @@ input[type="submit"]:hover {
         margin: 10px 20px;
     }
     .section-two .display-image {
-        height: 130px;
-        width: 130px;
+        height: 100px;
+        width: 100px;
     }
     /*----------------*/
     /*----------------*/
@@ -733,40 +748,47 @@ input[type="submit"]:hover {
     /*----------------*/
     /*----------------*/
     .section-three {
-        padding: 40px;
+        padding: 20px 40px 40px 40px;
     }
     .section-three:after {
-        height: 180px;
+        height: 200px;
     }
     .section-three:before {
-        height: 180px;
+        height: 200px;
     }
     .section-three .image7 {
-        height: 280px;
+        height: 260px;
     }
     .section-three .content {
         width: 100%;
     }
     .section-three .content .heading {
-        margin-left: 40%;
-        margin-top: -55%;
+        margin-left: 44%;
+        margin-top: -85%;
     }
     .section-three .content h1 {
-        font-size: 18px;
+        font-size: 16px;
     }
     .section-three .content p {
-        font-size: 30px;
-        line-height: 42px;
+        font-size: 22px;
+        line-height: 1.25;
     }
     .section-three .list {
-        margin-top: 30%;
-        margin-left: 10%;
+        margin-top: 80px;
     }
     .section-three .list ul li {
         width: 100%;
         float: none;
         align-items: center;
     }
+    .section-three .list ul li .image8{
+        width: 60px;
+    }
+    .section-three .list ul li .image8 img{
+        max-width: 100%;
+    }
+
+
     /*----------------*/
     /*----------------*/
     /*----------------*/
@@ -881,6 +903,9 @@ input[type="submit"]:hover {
         padding-top: 20px;
         margin-top: 50px;
     }
+    .section-seven .content {
+        z-index: 101;
+    }
     .section-seven .image13 {
         -webkit-order: 3;
         -moz-order: 3;
@@ -945,13 +970,14 @@ input[type="submit"]:hover {
         padding: 20px;
     }
     .section-eight h3 {
-        font-size: 18px;
+        font-size: 16px;
     }
     .section-eight h1 {
-        font-size: 30px;
+        font-size: 20px;
+        line-height: 1.2;
     }
     input[type="email"] {
-        font-size: 24px;
+        font-size: 18px;
         border: 2px solid #fff;
         height: 50px;
         line-height: 50px;
@@ -978,7 +1004,7 @@ input[type="submit"]:hover {
     }
     input[type="submit"] {
         padding: 0px 10px;
-        font-size: 18px;
+        font-size: 14px;
         height: 50px;
         line-height: 50px;
         margin-bottom: 12px;
